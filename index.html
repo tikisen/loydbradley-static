@@ -7,17 +7,18 @@
   <title>Loyd Bradley</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
       background: #808080;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
     }
     img {
-      max-width: 100%;
-      max-height: 100vh;
-      object-fit: contain;
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
     }
   </style>
 </head>
@@ -25,4 +26,3 @@
   <img src="/screenshot.png" alt="Loyd Bradley">
 </body>
 </html>
-
